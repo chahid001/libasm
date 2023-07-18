@@ -1,5 +1,5 @@
 NAME= libasm
-SRC_ASM= ft_write.s
+SRC_ASM= ft_write.s ft_read.s ft_strcmp.s
 MAIN= main.c
 FLAGS_ASM= -f macho64 #elf64 for linux
 OBJ= $(SRC_ASM:.s=.o)
